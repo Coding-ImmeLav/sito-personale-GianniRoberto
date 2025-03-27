@@ -33,7 +33,7 @@ header {
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: white;   
+    color: white;
 }
 
 ul {
@@ -41,13 +41,21 @@ ul {
 }
 
 li {
-   padding-top: 0.5%;
-   padding-bottom: 0.5%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
 }
 
 #menu {
     /* all'inizio non si vede  */
     display: none;
+}
+
+.menu {
+    cursor: pointer;
+}
+
+.menu-lista > ul > li {
+    text-align: center;
 }
 
 footer {
@@ -67,7 +75,7 @@ footer {
     height: 80%;
 }
 
-.info > a {
+.info>a {
     text-decoration: none;
     background-color: darkcyan;
     color: white;
@@ -76,7 +84,7 @@ footer {
 }
 
 /* seleziono i tre div dentro al footer  */
-footer > div {
+footer>div {
     /* specifico la larghezza dei tre div nel footer e li metto in mezzo  */
     width: 33.33333%;
     display: flex;
@@ -111,11 +119,13 @@ footer > div {
 .cv {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 
 .curriculum {
-    width: 70%;
+    width: 65%;
     border: 1px solid black;
     padding: 20px;
 
@@ -123,4 +133,40 @@ footer > div {
 
 .intestazione {
     text-align: center;
+}
+
+.fascia-download {
+    background-color: DarkSeaGreen;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottone {
+    background-color: darkmagenta;
+    color: floralwhite;
+    font-family: "Boldonse";
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+
+.bottone:hover {
+    background-color: darkseagreen;
+    color: darkorange;
+    border: 1px solid darkblue;
+}
+
+.a {
+    text-decoration: none;
+}
+
+.bonus {
+    height: 50vh;
+}
+
+html {
+    /*proprità che scrolla il sito*/
+    scroll-behavior: smooth;
 }
