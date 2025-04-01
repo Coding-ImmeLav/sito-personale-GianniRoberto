@@ -54,7 +54,7 @@ li {
     cursor: pointer;
 }
 
-.menu-lista > ul > li {
+.menu-lista>ul>li {
     text-align: center;
 }
 
@@ -169,4 +169,36 @@ footer>div {
 html {
     /*proprità che scrolla il sito*/
     scroll-behavior: smooth;
+}
+
+.testo {
+    text-align: center;
+    width: 60%;
+}
+
+.intro-stage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.relazione-terza {
+    display: flex;
+    background-color: lightsteelblue;
+}
+
+.sx, .dx {
+    width: 50%;
+    padding: 5%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.immagine {
+    width: 80%;
+    padding: 3%;
 }
