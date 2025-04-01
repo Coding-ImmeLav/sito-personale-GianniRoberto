@@ -27,7 +27,7 @@ header {
 }
 
 .hero {
-    background-color: cornflowerblue;
+    background-color: MediumPurple;
     height: 92vh;
     display: flex;
     justify-content: center;
@@ -186,7 +186,7 @@ html {
 
 .relazione-terza {
     display: flex;
-    background-color: lightsteelblue;
+    background-color: Teal;
 }
 
 .sx, .dx {
