@@ -3,7 +3,7 @@ body {
 }
 
 header {
-    background-color: cadetblue;
+    background-color: cornflowerblue;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -27,7 +27,17 @@ header {
 }
 
 .hero {
-    background-color: MediumPurple;
+    background-color: firebrick;
+    height: 92vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.hero-stage {
+    background-color: darkseagreen;
     height: 92vh;
     display: flex;
     justify-content: center;
@@ -136,7 +146,7 @@ footer>div {
 }
 
 .fascia-download {
-    background-color: DarkSeaGreen;
+    background-color: slateblue;
     width: 100%;
     height: 10vh;
     display: flex;
@@ -153,9 +163,9 @@ footer>div {
 }
 
 .bottone:hover {
-    background-color: darkseagreen;
+    background-color: slateblue;
     color: darkorange;
-    border: 1px solid darkblue;
+    border: 1px solid mistyrose;
 }
 
 .a {
@@ -186,7 +196,7 @@ html {
 
 .relazione-terza {
     display: flex;
-    background-color: Teal;
+    background-color: palegoldenrod;
 }
 
 .sx, .dx {
@@ -196,10 +206,15 @@ html {
     justify-content: start;
     align-items: center;
     flex-direction: column;
-    color: whitesmoke;
+    color: midnightblue;
 }
 
 .immagine {
-    width: 80%;
+    width: 65%;
     padding: 3%;
+}
+
+.relazione {
+    display: flex;
+    background-color: blueviolet;
 }
