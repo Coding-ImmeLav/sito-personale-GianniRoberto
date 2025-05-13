@@ -207,6 +207,7 @@ html {
     align-items: center;
     flex-direction: column;
     color: midnightblue;
+    font-size: 20px;
 }
 
 .immagine {
