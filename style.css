@@ -201,7 +201,8 @@ html {
     background-color: palegoldenrod;
 }
 
-.sx, .dx {
+.sx,
+.dx {
     width: 50%;
     padding: 5%;
     display: flex;
@@ -220,4 +221,14 @@ html {
 .relazione {
     display: flex;
     background-color: blueviolet;
+}
+
+.c1 {
+    background-image: url(./img/bella\ vista.jpg);
+    color: white;
+}
+
+.c1:hover {
+    background-image: none;
+    color: black;
 }
