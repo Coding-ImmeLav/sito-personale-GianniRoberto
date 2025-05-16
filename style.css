@@ -232,3 +232,39 @@ html {
     background-image: none;
     color: black;
 }
+
+.c2 {
+    background-image: url(./img/Mizutsune_my_personale_kitsune.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.c2:hover {
+    background-image: none;
+    color: black;
+}
+
+.c3 {
+    background-image: url(./img/Smandown_Bologna.webp);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.c3:hover {
+    background-image: none;
+    color: black;
+}
+
+.c4 {
+    background-image: url(./img/knight_of_catarina.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.c4:hover {
+    background-image: none;
+    color: black;
+}
